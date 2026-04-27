@@ -1,0 +1,7 @@
+comparison,dataset,flatfishbert_macro_f1,dnabert2_macro_f1,notes
+V3_Exp4,Exp4_cross_dedup,97.57,98.72,seed42 representative comparison
+V3_Exp4_multiseed,Exp4_cross_dedup,97.57,98.67,DNABERT2 four-seed mean
+Task_G_v3,V4 Task_G_v3,93.70,95.49,V4 diagnostic task
+Task_S,V4 Task_S,82.22,86.82,V4 diagnostic task
+Task_N,V4 Task_N,83.09,91.48,V4 diagnostic task
+Task_N_aug,V4 Task_N_aug,86.66,92.63,V4 diagnostic task with augmentation

@@ -1,0 +1,7 @@
+{
+  "total_queries": 155301,
+  "queries_with_hit": 55951,
+  "queries_no_hit": 99350,
+  "hit_rate": 0.3602745635894167,
+  "no_hit_definition": "\u5728\u4e3brun\u53c2\u6570\u4e0b\uff08identity\u226580%, coverage\u226570%, E-value\u22641e-5\uff09\u672a\u627e\u5230\u4efb\u4f55train\u96c6\u5339\u914d\u7684test\u6837\u672c"
+}

@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Environments
+.venv/
+venv/
+env/
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+nohup.out
+
+# Large binary artifacts (distributed via Zenodo)
+*.pkl
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.h5
+*.npy
+*.npz
+
+# Model checkpoints are distributed separately
+checkpoints/
+
+# Data directory (populated from Zenodo)
+/data/
+
+# Training outputs (not committed)
+pretrain_output/
+finetune_output/
+models/
+outputs/
+
+# Temporary files
+*.tmp
+*.temp

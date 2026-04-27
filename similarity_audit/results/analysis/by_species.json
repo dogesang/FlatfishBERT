@@ -1,0 +1,68 @@
+{
+  "GCF_000523025.1": {
+    "total": 48861,
+    "with_hit": 15108,
+    "risk_levels": {
+      "extreme": {
+        "count": 65,
+        "percentage": 0.13303043326988803
+      },
+      "high": {
+        "count": 177,
+        "percentage": 0.3622521029041567
+      },
+      "medium": {
+        "count": 956,
+        "percentage": 1.9565706800925071
+      },
+      "low": {
+        "count": 4319,
+        "percentage": 8.839360635271484
+      }
+    }
+  },
+  "GCF_022379125.1": {
+    "total": 50843,
+    "with_hit": 19174,
+    "risk_levels": {
+      "extreme": {
+        "count": 23,
+        "percentage": 0.045237299136557635
+      },
+      "high": {
+        "count": 158,
+        "percentage": 0.310760576677222
+      },
+      "medium": {
+        "count": 2753,
+        "percentage": 5.41470802273666
+      },
+      "low": {
+        "count": 10448,
+        "percentage": 20.549534842554532
+      }
+    }
+  },
+  "GCF_024713975.1": {
+    "total": 55597,
+    "with_hit": 21669,
+    "risk_levels": {
+      "extreme": {
+        "count": 20,
+        "percentage": 0.035973164019641346
+      },
+      "high": {
+        "count": 306,
+        "percentage": 0.5503894095005126
+      },
+      "medium": {
+        "count": 3296,
+        "percentage": 5.928377430436894
+      },
+      "low": {
+        "count": 12028,
+        "percentage": 21.634260841412306
+      }
+    }
+  }
+}

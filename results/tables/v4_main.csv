@@ -1,0 +1,6 @@
+task,description,accuracy,macro_f1
+Task_G_v3,Gene body vs Background,93.70,93.70
+Task_S,CDS/intron/ncRNA_gene,97.54,82.22
+Task_N,ncRNA subtype classification,96.88,83.09
+Task_N_aug,Task_N+reverse-complement augmentation,97.44,86.66
+Task_S_aug,Task_S+augmentation,96.71,80.57

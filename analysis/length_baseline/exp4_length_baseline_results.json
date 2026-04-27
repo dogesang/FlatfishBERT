@@ -1,0 +1,119 @@
+{
+  "experiment": "V3_Exp4_Length_Baseline",
+  "description": "仅使用序列长度进行分类的基线实验",
+  "optimal_threshold": 236.0,
+  "optimal_direction": "less_is_pc",
+  "direction_explanation": "less_is_pc: length < threshold -> Protein-coding",
+  "train_stats": {
+    "Protein-coding": {
+      "count": 583156,
+      "mean": 174.11000829966596,
+      "std": 290.17531247261047,
+      "median": 125.0,
+      "min": 1,
+      "max": 30843,
+      "q25": 87.0,
+      "q75": 174.0
+    },
+    "Non-coding": {
+      "count": 642686,
+      "mean": 1503.2128162119604,
+      "std": 6601.198078087866,
+      "median": 327.0,
+      "min": 1,
+      "max": 1143401,
+      "q25": 121.0,
+      "q75": 967.0
+    }
+  },
+  "test_stats": {
+    "Protein-coding": {
+      "count": 73850,
+      "mean": 174.48418415707516,
+      "std": 296.5006652081647,
+      "median": 125.0,
+      "min": 1,
+      "max": 17322,
+      "q25": 86.0,
+      "q75": 174.0
+    },
+    "Non-coding": {
+      "count": 81451,
+      "mean": 1543.2354421676837,
+      "std": 8194.031499820938,
+      "median": 329.0,
+      "min": 2,
+      "max": 1158438,
+      "q25": 121.0,
+      "q75": 974.0
+    }
+  },
+  "train_results": {
+    "dataset": "训练集",
+    "threshold": 236.0,
+    "direction": "less_is_pc",
+    "total_samples": 1225842,
+    "accuracy": 0.719884781236081,
+    "precision_macro": 0.7474861065342571,
+    "recall_macro": 0.7274258859468115,
+    "f1_macro": 0.7157949004438526,
+    "per_class": {
+      "Protein-coding": {
+        "precision": 0.6518090153835634,
+        "recall": 0.882712344552744,
+        "f1": 0.749888374566154,
+        "support": 583156
+      },
+      "Non-coding": {
+        "precision": 0.8431631976849506,
+        "recall": 0.5721394273408787,
+        "f1": 0.6817014263215513,
+        "support": 642686
+      }
+    },
+    "confusion_matrix": {
+      "tn": 514759,
+      "fp": 68397,
+      "fn": 274980,
+      "tp": 367706
+    }
+  },
+  "test_results": {
+    "dataset": "测试集",
+    "threshold": 236.0,
+    "direction": "less_is_pc",
+    "total_samples": 155301,
+    "accuracy": 0.7199309727561316,
+    "precision_macro": 0.7469839750329745,
+    "recall_macro": 0.7274528593093013,
+    "f1_macro": 0.7159707603165723,
+    "per_class": {
+      "Protein-coding": {
+        "precision": 0.6520959223962561,
+        "recall": 0.8811374407582938,
+        "f1": 0.7495090388679962,
+        "support": 73850
+      },
+      "Non-coding": {
+        "precision": 0.841872027669693,
+        "recall": 0.5737682778603087,
+        "f1": 0.6824324817651483,
+        "support": 81451
+      }
+    },
+    "confusion_matrix": {
+      "tn": 65072,
+      "fp": 8778,
+      "fn": 34717,
+      "tp": 46734
+    }
+  },
+  "model_comparison": {
+    "length_baseline_accuracy": 0.7199309727561316,
+    "length_baseline_f1": 0.7159707603165723,
+    "bert_model_accuracy": 0.9757,
+    "bert_model_f1": 0.9757,
+    "improvement_accuracy": 0.2557690272438684,
+    "improvement_f1": 0.25972923968342776
+  }
+}

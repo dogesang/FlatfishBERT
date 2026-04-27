@@ -1,0 +1,6 @@
+experiment,description,accuracy,macro_f1
+Exp1_concat,CDS拼接+位置级去重+基因级划分,99.90,99.63
+Exp2_unconcat,CDS不拼接+位置级去重+随机分层,97.81,97.81
+Exp3_seq_dedup,CDS不拼接+单物种序列级去重+基因级划分,97.78,97.78
+Exp4_cross_dedup,CDS不拼接+跨物种序列级去重+基因级划分,97.57,97.57
+Exp5_unconcat_gene,CDS不拼接+位置级去重+基因级划分,97.60,97.60

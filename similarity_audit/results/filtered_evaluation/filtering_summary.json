@@ -1,0 +1,196 @@
+{
+  "original_test_size": 155301,
+  "risk_samples": {
+    "extreme": 108,
+    "high": 533,
+    "medium": 6364,
+    "round1_remove": 641,
+    "round2_remove": 7005
+  },
+  "flatfishbert": {
+    "original": {
+      "accuracy": 0.9757245606918178,
+      "f1_macro": 0.9756976383372525
+    },
+    "round1_filtered": {
+      "filter_name": "Round1: Remove extreme+high",
+      "removed_count": 641,
+      "remaining_count": 154660,
+      "removed_percentage": 0.41274685932479505,
+      "removed_by_label": {
+        "CDS": 381,
+        "rRNA": 20,
+        "intron": 182,
+        "lncRNA_exon": 49,
+        "snRNA": 8,
+        "snoRNA": 1
+      },
+      "accuracy": 0.9758437863701022,
+      "f1_macro": 0.9758153423509015,
+      "classification_report": {
+        "Protein-coding": {
+          "precision": 0.9594528707156693,
+          "recall": 0.9910302304373273,
+          "f1-score": 0.9749859396341627,
+          "support": 73469.0
+        },
+        "Non-coding": {
+          "precision": 0.9916341893796098,
+          "recall": 0.9621017107807516,
+          "f1-score": 0.9766447450676402,
+          "support": 81191.0
+        },
+        "accuracy": 0.9758437863701022,
+        "macro avg": {
+          "precision": 0.9755435300476396,
+          "recall": 0.9765659706090395,
+          "f1-score": 0.9758153423509015,
+          "support": 154660.0
+        },
+        "weighted avg": {
+          "precision": 0.9763469185861205,
+          "recall": 0.9758437863701022,
+          "f1-score": 0.9758567534965026,
+          "support": 154660.0
+        }
+      }
+    },
+    "round2_filtered": {
+      "filter_name": "Round2: Remove extreme+high+medium",
+      "removed_count": 7005,
+      "remaining_count": 148296,
+      "removed_percentage": 4.510595553151622,
+      "removed_by_label": {
+        "CDS": 6305,
+        "intron": 537,
+        "rRNA": 35,
+        "lncRNA_exon": 99,
+        "tRNA": 11,
+        "snoRNA": 7,
+        "snRNA": 11
+      },
+      "accuracy": 0.9754275233317149,
+      "f1_macro": 0.9752965980118993,
+      "classification_report": {
+        "Protein-coding": {
+          "precision": 0.9567293259952827,
+          "recall": 0.9908653490265749,
+          "f1-score": 0.9734981818181818,
+          "support": 67545.0
+        },
+        "Non-coding": {
+          "precision": 0.9921241750807368,
+          "recall": 0.9625143961065498,
+          "f1-score": 0.9770950142056168,
+          "support": 80751.0
+        },
+        "accuracy": 0.9754275233317149,
+        "macro avg": {
+          "precision": 0.9744267505380098,
+          "recall": 0.9766898725665623,
+          "f1-score": 0.9752965980118993,
+          "support": 148296.0
+        },
+        "weighted avg": {
+          "precision": 0.9760027349779896,
+          "recall": 0.9754275233317149,
+          "f1-score": 0.9754567498990321,
+          "support": 148296.0
+        }
+      }
+    }
+  },
+  "dnabert2": {
+    "original": {
+      "accuracy": 0.986542263089098,
+      "f1_macro": 0.9865203823807116
+    },
+    "round1_filtered": {
+      "filter_name": "Round1: Remove extreme+high",
+      "removed_count": 641,
+      "remaining_count": 154660,
+      "removed_percentage": 0.41274685932479505,
+      "removed_by_label": {
+        "CDS": 381,
+        "rRNA": 20,
+        "intron": 182,
+        "lncRNA_exon": 49,
+        "snRNA": 8,
+        "snoRNA": 1
+      },
+      "accuracy": 0.9866158024052761,
+      "f1_macro": 0.9865929015173986,
+      "classification_report": {
+        "Protein-coding": {
+          "precision": 0.9772724234281207,
+          "recall": 0.9949638623092733,
+          "f1-score": 0.9860387946151563,
+          "support": 73469.0
+        },
+        "Non-coding": {
+          "precision": 0.9953669500757566,
+          "recall": 0.9790617186633986,
+          "f1-score": 0.9871470084196409,
+          "support": 81191.0
+        },
+        "accuracy": 0.9866158024052761,
+        "macro avg": {
+          "precision": 0.9863196867519386,
+          "recall": 0.987012790486336,
+          "f1-score": 0.9865929015173986,
+          "support": 154660.0
+        },
+        "weighted avg": {
+          "precision": 0.9867714064427864,
+          "recall": 0.9866158024052761,
+          "f1-score": 0.9866205674523469,
+          "support": 154660.0
+        }
+      }
+    },
+    "round2_filtered": {
+      "filter_name": "Round2: Remove extreme+high+medium",
+      "removed_count": 7005,
+      "remaining_count": 148296,
+      "removed_percentage": 4.510595553151622,
+      "removed_by_label": {
+        "CDS": 6305,
+        "intron": 537,
+        "rRNA": 35,
+        "lncRNA_exon": 99,
+        "tRNA": 11,
+        "snoRNA": 7,
+        "snRNA": 11
+      },
+      "accuracy": 0.9863246480012947,
+      "f1_macro": 0.9862362580419171,
+      "classification_report": {
+        "Protein-coding": {
+          "precision": 0.9756777556739803,
+          "recall": 0.9947738544673921,
+          "f1-score": 0.9851332727326042,
+          "support": 67545.0
+        },
+        "Non-coding": {
+          "precision": 0.9955557793752912,
+          "recall": 0.97925722282077,
+          "f1-score": 0.9873392433512299,
+          "support": 80751.0
+        },
+        "accuracy": 0.9863246480012947,
+        "macro avg": {
+          "precision": 0.9856167675246357,
+          "recall": 0.9870155386440811,
+          "f1-score": 0.9862362580419171,
+          "support": 148296.0
+        },
+        "weighted avg": {
+          "precision": 0.9865018526955087,
+          "recall": 0.9863246480012947,
+          "f1-score": 0.9863344806776914,
+          "support": 148296.0
+        }
+      }
+    }
+  }
+}

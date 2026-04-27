@@ -1,0 +1,134 @@
+{
+  "0-100bp": {
+    "total": 37810,
+    "with_hit": 16298,
+    "risk_levels": {
+      "extreme": {
+        "count": 38,
+        "percentage": 0.10050251256281408
+      },
+      "high": {
+        "count": 48,
+        "percentage": 0.12695054218460725
+      },
+      "medium": {
+        "count": 3029,
+        "percentage": 8.011108172441153
+      },
+      "low": {
+        "count": 9357,
+        "percentage": 24.747421317111876
+      }
+    }
+  },
+  "100-200bp": {
+    "total": 54744,
+    "with_hit": 30002,
+    "risk_levels": {
+      "extreme": {
+        "count": 43,
+        "percentage": 0.0785474207219056
+      },
+      "high": {
+        "count": 315,
+        "percentage": 0.5754055238930295
+      },
+      "medium": {
+        "count": 3127,
+        "percentage": 5.712041502265088
+      },
+      "low": {
+        "count": 14044,
+        "percentage": 25.653952944614932
+      }
+    }
+  },
+  "200-500bp": {
+    "total": 26913,
+    "with_hit": 7380,
+    "risk_levels": {
+      "extreme": {
+        "count": 22,
+        "percentage": 0.08174488165570543
+      },
+      "high": {
+        "count": 160,
+        "percentage": 0.5945082302233121
+      },
+      "medium": {
+        "count": 588,
+        "percentage": 2.184817746070672
+      },
+      "low": {
+        "count": 2769,
+        "percentage": 10.288708059302195
+      }
+    }
+  },
+  "500-1000bp": {
+    "total": 14850,
+    "with_hit": 1300,
+    "risk_levels": {
+      "extreme": {
+        "count": 4,
+        "percentage": 0.026936026936026935
+      },
+      "high": {
+        "count": 73,
+        "percentage": 0.4915824915824916
+      },
+      "medium": {
+        "count": 171,
+        "percentage": 1.1515151515151514
+      },
+      "low": {
+        "count": 403,
+        "percentage": 2.7138047138047137
+      }
+    }
+  },
+  "1000-2000bp": {
+    "total": 9869,
+    "with_hit": 547,
+    "risk_levels": {
+      "extreme": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "high": {
+        "count": 26,
+        "percentage": 0.26345121086229606
+      },
+      "medium": {
+        "count": 54,
+        "percentage": 0.5471678994832303
+      },
+      "low": {
+        "count": 145,
+        "percentage": 1.4692471375012666
+      }
+    }
+  },
+  "2000+bp": {
+    "total": 11115,
+    "with_hit": 424,
+    "risk_levels": {
+      "extreme": {
+        "count": 1,
+        "percentage": 0.00899685110211426
+      },
+      "high": {
+        "count": 19,
+        "percentage": 0.17094017094017094
+      },
+      "medium": {
+        "count": 36,
+        "percentage": 0.32388663967611336
+      },
+      "low": {
+        "count": 77,
+        "percentage": 0.692757534862798
+      }
+    }
+  }
+}

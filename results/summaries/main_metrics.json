@@ -1,0 +1,13 @@
+{
+  "v3_best_model": "Exp1_concat",
+  "v3_principal_governed_regime": "Exp4_cross_dedup",
+  "v3_principal_governed_macro_f1": 97.57,
+  "dnabert2_exp4_seed42_macro_f1": 98.72,
+  "dnabert2_exp4_multiseed_mean": 98.67,
+  "dnabert2_exp4_multiseed_std": 0.03,
+  "flatfishbert_cross_species_macro_f1": 97.47,
+  "dnabert2_cross_species_macro_f1": 98.70,
+  "length_baseline_macro_f1": 71.60,
+  "task_n_aug_macro_f1": 86.66,
+  "dnabert2_task_n_aug_macro_f1": 92.63
+}

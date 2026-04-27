@@ -1,0 +1,156 @@
+{
+  "CDS": {
+    "total": 73850,
+    "with_hit": 53549,
+    "risk_levels": {
+      "extreme": {
+        "count": 82,
+        "percentage": 0.11103588354773189
+      },
+      "high": {
+        "count": 381,
+        "percentage": 0.5159106296547056
+      },
+      "medium": {
+        "count": 6305,
+        "percentage": 8.537576167907922
+      },
+      "low": {
+        "count": 25831,
+        "percentage": 34.97765741367637
+      }
+    }
+  },
+  "intron": {
+    "total": 77049,
+    "with_hit": 1874,
+    "risk_levels": {
+      "extreme": {
+        "count": 7,
+        "percentage": 0.009085127646043427
+      },
+      "high": {
+        "count": 182,
+        "percentage": 0.23621331879712912
+      },
+      "medium": {
+        "count": 537,
+        "percentage": 0.6969590779893314
+      },
+      "low": {
+        "count": 715,
+        "percentage": 0.9279808952744358
+      }
+    }
+  },
+  "lncRNA_exon": {
+    "total": 4209,
+    "with_hit": 445,
+    "risk_levels": {
+      "extreme": {
+        "count": 17,
+        "percentage": 0.40389641244951296
+      },
+      "high": {
+        "count": 49,
+        "percentage": 1.1641720123544785
+      },
+      "medium": {
+        "count": 99,
+        "percentage": 2.3521026372059874
+      },
+      "low": {
+        "count": 175,
+        "percentage": 4.15775718698028
+      }
+    }
+  },
+  "tRNA": {
+    "total": 71,
+    "with_hit": 20,
+    "risk_levels": {
+      "extreme": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "high": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "medium": {
+        "count": 11,
+        "percentage": 15.492957746478872
+      },
+      "low": {
+        "count": 16,
+        "percentage": 22.535211267605636
+      }
+    }
+  },
+  "rRNA": {
+    "total": 36,
+    "with_hit": 35,
+    "risk_levels": {
+      "extreme": {
+        "count": 1,
+        "percentage": 2.7777777777777777
+      },
+      "high": {
+        "count": 20,
+        "percentage": 55.55555555555556
+      },
+      "medium": {
+        "count": 35,
+        "percentage": 97.22222222222221
+      },
+      "low": {
+        "count": 35,
+        "percentage": 97.22222222222221
+      }
+    }
+  },
+  "snRNA": {
+    "total": 34,
+    "with_hit": 16,
+    "risk_levels": {
+      "extreme": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "high": {
+        "count": 8,
+        "percentage": 23.52941176470588
+      },
+      "medium": {
+        "count": 11,
+        "percentage": 32.35294117647059
+      },
+      "low": {
+        "count": 15,
+        "percentage": 44.11764705882353
+      }
+    }
+  },
+  "snoRNA": {
+    "total": 52,
+    "with_hit": 12,
+    "risk_levels": {
+      "extreme": {
+        "count": 1,
+        "percentage": 1.9230769230769231
+      },
+      "high": {
+        "count": 1,
+        "percentage": 1.9230769230769231
+      },
+      "medium": {
+        "count": 7,
+        "percentage": 13.461538461538462
+      },
+      "low": {
+        "count": 8,
+        "percentage": 15.384615384615385
+      }
+    }
+  }
+}
