@@ -1,0 +1,50 @@
+{
+  "title": "A Governance-First Benchmark for Genomic Fragment Classification under Homology-Aware Evaluation",
+  "upload_type": "software",
+  "description": "Source code for benchmark generation, FlatfishBert pretraining and fine-tuning, DNABERT-2 baseline evaluation, cross-species transfer evaluation, diagnostic task experiments, figure generation, and MMseqs2 train-test similarity auditing. Processed datasets, FlatfishBert checkpoints, result artifacts, and compact supplementary-table TSVs are archived separately in the Zenodo data/model record.",
+  "creators": [
+    {
+      "name": "Tang, Jingwen",
+      "affiliation": "School of Information Engineering, Zhongnan University of Economics and Law, Wuhan, Hubei, China"
+    },
+    {
+      "name": "Zheng, Qiuhua",
+      "affiliation": "School of Cyberspace, Hangzhou Dianzi University, Hangzhou, Zhejiang, China"
+    },
+    {
+      "name": "Zhong, Jixing",
+      "affiliation": "School of Information Engineering, Zhongnan University of Economics and Law, Wuhan, Hubei, China"
+    },
+    {
+      "name": "Cheng, Chuanhui",
+      "affiliation": "School of Information Engineering, Zhongnan University of Economics and Law, Wuhan, Hubei, China"
+    },
+    {
+      "name": "Hu, Qiaomu",
+      "affiliation": "State Key Laboratory of Mariculture Biobreeding and Sustainable Goods, Yellow Sea Fisheries Research Institute, Chinese Academy of Fishery Sciences, Qingdao, Shandong, China"
+    }
+  ],
+  "license": "mit",
+  "keywords": [
+    "genomic fragment classification",
+    "benchmark governance",
+    "homology-aware evaluation",
+    "FlatfishBert",
+    "DNABERT-2",
+    "MMseqs2",
+    "cross-species transfer",
+    "flatfish genomes"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.19825273",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://github.com/dogesang/FlatfishBERT",
+      "relation": "isIdenticalTo",
+      "resource_type": "software"
+    }
+  ]
+}

@@ -35,14 +35,14 @@ def load_data_by_species_and_label(
     for sample in samples:
         label = sample.get('label_name')
         species = sample.get('species')
-            seq = sample.get('sequence', '')
+        seq = sample.get('sequence', '')
 
         if label in labels and species and seq:
-                data[species][label].append({
-                    'sequence': seq,
-                    'length': len(seq),
-                    'gene_name': sample.get('gene_name', ''),
-                })
+            data[species][label].append({
+                'sequence': seq,
+                'length': len(seq),
+                'gene_name': sample.get('gene_name', ''),
+            })
 
     data = {sp: dict(labels_dict) for sp, labels_dict in data.items()}
 

@@ -44,6 +44,9 @@ finetune_output/
 models/
 outputs/
 
+# MMseqs2 raw alignment outputs (distributed via Zenodo data/model archive)
+similarity_audit/results/run*/alignment_results.tsv
+
 # Temporary files
 *.tmp
 *.temp

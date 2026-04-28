@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated manuscript and Zenodo archives."
+title: "A Governance-First Benchmark for Genomic Fragment Classification under Homology-Aware Evaluation"
+type: software
+authors:
+  - family-names: Tang
+    given-names: Jingwen
+    affiliation: "School of Information Engineering, Zhongnan University of Economics and Law, Wuhan, Hubei, China"
+  - family-names: Zheng
+    given-names: Qiuhua
+    affiliation: "School of Cyberspace, Hangzhou Dianzi University, Hangzhou, Zhejiang, China"
+  - family-names: Zhong
+    given-names: Jixing
+    affiliation: "School of Information Engineering, Zhongnan University of Economics and Law, Wuhan, Hubei, China"
+  - family-names: Cheng
+    given-names: Chuanhui
+    email: cch@zuel.edu.cn
+    affiliation: "School of Information Engineering, Zhongnan University of Economics and Law, Wuhan, Hubei, China"
+  - family-names: Hu
+    given-names: Qiaomu
+    email: hqmu0806@163.com
+    affiliation: "State Key Laboratory of Mariculture Biobreeding and Sustainable Goods, Yellow Sea Fisheries Research Institute, Chinese Academy of Fishery Sciences, Qingdao, Shandong, China"
+repository-code: "https://github.com/dogesang/FlatfishBERT"
+url: "https://github.com/dogesang/FlatfishBERT"
+license: MIT
+keywords:
+  - genomic fragment classification
+  - benchmark governance
+  - homology-aware evaluation
+  - FlatfishBert
+  - DNABERT-2
+  - MMseqs2
+  - flatfish genomes
+references:
+  - type: dataset
+    title: "Processed data, FlatfishBert checkpoints, and evaluation results for a governance-first genomic fragment classification benchmark"
+    doi: "10.5281/zenodo.19825273"

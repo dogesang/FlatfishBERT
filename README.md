@@ -2,6 +2,12 @@
 
 Code for: **A Governance-First Benchmark for Genomic Fragment Classification under Homology-Aware Evaluation**
 
+## Authors
+
+Jingwen Tang, Qiuhua Zheng, Jixing Zhong, Chuanhui Cheng, and Qiaomu Hu.
+
+Chuanhui Cheng and Qiaomu Hu are co-corresponding authors.
+
 ## Repository Structure
 
 ```
@@ -28,7 +34,7 @@ Code for: **A Governance-First Benchmark for Genomic Fragment Classification und
 │
 ├── similarity_audit/               # MMseqs2 similarity audit
 │   ├── scripts/                    #   Pipeline (01–05) + prediction scripts
-│   └── results/                    #   Pre-computed alignment & analysis outputs
+│   └── results/                    #   Lightweight pre-computed analysis summaries
 │
 ├── analysis/                       # Auxiliary analyses
 │   ├── length_baseline/            #   Length-only baseline
@@ -53,13 +59,15 @@ Code for: **A Governance-First Benchmark for Genomic Fragment Classification und
 | §3.6 Diagnostic tasks | `diagnostic_tasks/` |
 | Fig. 2–4 | `figures/` |
 
-## Data and Model Availability
+## Data, Model, and Code Archives
 
-- **Reference genomes:** NCBI RefSeq (accessions in the paper).
-- **Processed data & checkpoints:** [ZENODO_DATA_DOI]
-- **Archived code:** [ZENODO_CODE_DOI]
+- **Reference genomes:** NCBI RefSeq accessions are listed in the manuscript and in the Zenodo data archive.
+- **Processed data, FlatfishBert checkpoints, and result artifacts:** https://doi.org/10.5281/zenodo.19825273
+- **Archived source code:** https://doi.org/10.5281/zenodo.19840124
 
-This repository does not include training data or model weights. Model checkpoints are archived separately and are not tracked in GitHub.
+This repository does not include training data or model weights. Processed datasets, FlatfishBert checkpoints, and full data/model artifacts are archived separately in the Zenodo data/model record. This repository retains the source code together with selected lightweight result summaries, figure outputs, tokenizer files, and MMseqs2 audit summaries needed for paper-code navigation and review.
+
+DNABERT-2 fine-tuned checkpoints are not redistributed. DNABERT-2 is used as a strong public baseline; this repository provides the scripts needed to rerun the DNABERT-2 analyses when the original DNABERT-2 base model is obtained from its public source.
 
 ## Module Notes
 
@@ -74,7 +82,7 @@ This repository does not include training data or model weights. Model checkpoin
 
 ```bash
 conda env create -f environment.yml
-conda activate flatfishbert
+conda activate flatfishbert-review
 ```
 
 DNABERT-2 requires a separate environment; set `DNABERT2_MODEL_PATH` accordingly.
@@ -88,12 +96,17 @@ export DNABERT2_MODEL_PATH=/path/to/dnabert2
 
 ## Citation
 
+Please cite the associated manuscript and archives if you use this repository:
+
+- Data/model archive: https://doi.org/10.5281/zenodo.19825273
+- Code archive: https://doi.org/10.5281/zenodo.19840124
+
 ```bibtex
 @article{tang2026governance,
   title   = {A Governance-First Benchmark for Genomic Fragment Classification
              under Homology-Aware Evaluation},
   author  = {Tang, Jingwen and Zheng, Qiuhua and Zhong, Jixing
-             and Cheng, Chuanhui and Fan, Yuding},
+             and Cheng, Chuanhui and Hu, Qiaomu},
   year    = {2026}
 }
 ```
