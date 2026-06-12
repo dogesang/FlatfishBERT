@@ -1,6 +1,6 @@
-# FlatfishBert
+# FlatfishBERT
 
-Code for: **A Governance-First Benchmark for Genomic Fragment Classification under Homology-Aware Evaluation**
+Code for: **A reproducible benchmark with sequence-similarity auditing for coding and non-coding genomic fragment classification across flatfish genomes**
 
 ## Authors
 
@@ -17,7 +17,7 @@ Chuanhui Cheng and Qiaomu Hu are co-corresponding authors.
 │   └── tokenizer/                  #   BPE tokenizer training & trained tokenizer
 │
 ├── benchmark/                      # Core benchmark (Exp1–Exp5)
-│   ├── data_preparation/           #   Data preparation for five governance regimes
+│   ├── data_preparation/           #   Data preparation for five benchmark regimes
 │   ├── flatfishbert/               #   FlatfishBert fine-tuning & evaluation
 │   └── dnabert2/                   #   DNABERT-2 baseline
 │       ├── exp4_comparison/        #     Exp4 comparison (single + multi-seed)
@@ -49,21 +49,19 @@ Chuanhui Cheng and Qiaomu Hu are co-corresponding authors.
 | Paper Section | Code Location |
 |---|---|
 | §2.3–2.5 Benchmark construction | `benchmark/data_preparation/` |
-| §2.6 FlatfishBert pretraining | `pretrain/` |
-| §2.6 Fine-tuning (Exp1–Exp5) | `benchmark/flatfishbert/` |
-| §3.2 DNABERT-2 comparison | `benchmark/dnabert2/exp4_comparison/` |
-| §3.3 MMseqs2 audit | `similarity_audit/` |
-| §3.4 Length baseline & sequence stats | `analysis/` |
-| §3.5 Split sensitivity | `benchmark/dnabert2/exp2_split_sensitivity/` |
-| §3.6 Cross-species transfer | `cross_species/` |
-| §3.6 Diagnostic tasks | `diagnostic_tasks/` |
+| §2.6 Models and fine-tuning | `pretrain/`, `benchmark/flatfishbert/` |
+| §3.1 Exp1–Exp5 regime comparison | `benchmark/flatfishbert/` |
+| §3.2 Principal benchmark calibration | `benchmark/dnabert2/exp4_comparison/` |
+| §3.3 Sequence-similarity auditing | `similarity_audit/` |
+| §3.4 Shortcut & sequence-feature analyses | `analysis/` |
+| §3.5 Split-reference & cross-species | `benchmark/dnabert2/exp2_split_sensitivity/`, `cross_species/` |
+| §3.6 Diagnostic extensions | `diagnostic_tasks/` |
 | Fig. 2–4 | `figures/` |
 
 ## Data, Model, and Code Archives
 
 - **Reference genomes:** NCBI RefSeq accessions are listed in the manuscript and in the Zenodo data archive.
-- **Processed data, FlatfishBert checkpoints, and result artifacts:** https://doi.org/10.5281/zenodo.19825273
-- **Archived source code:** https://doi.org/10.5281/zenodo.19840124
+- **Processed data, FlatfishBert checkpoints, and result artifacts:** https://doi.org/10.5281/zenodo.20670177
 
 This repository does not include training data or model weights. Processed datasets, FlatfishBert checkpoints, and full data/model artifacts are archived separately in the Zenodo data/model record. This repository retains the source code together with selected lightweight result summaries, figure outputs, tokenizer files, and MMseqs2 audit summaries needed for paper-code navigation and review.
 
@@ -96,15 +94,13 @@ export DNABERT2_MODEL_PATH=/path/to/dnabert2
 
 ## Citation
 
-Please cite the associated manuscript and archives if you use this repository:
-
-- Data/model archive: https://doi.org/10.5281/zenodo.19825273
-- Code archive: https://doi.org/10.5281/zenodo.19840124
+Please cite the associated manuscript and Zenodo data archive if you use this repository:
 
 ```bibtex
-@article{tang2026governance,
-  title   = {A Governance-First Benchmark for Genomic Fragment Classification
-             under Homology-Aware Evaluation},
+@article{tang2026reproducible,
+  title   = {A reproducible benchmark with sequence-similarity auditing for
+             coding and non-coding genomic fragment classification across
+             flatfish genomes},
   author  = {Tang, Jingwen and Zheng, Qiuhua and Zhong, Jixing
              and Cheng, Chuanhui and Hu, Qiaomu},
   year    = {2026}

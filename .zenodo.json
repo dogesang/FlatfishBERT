@@ -1,7 +1,7 @@
 {
-  "title": "A Governance-First Benchmark for Genomic Fragment Classification under Homology-Aware Evaluation",
+  "title": "A reproducible benchmark with sequence-similarity auditing for coding and non-coding genomic fragment classification across flatfish genomes",
   "upload_type": "software",
-  "description": "Source code for benchmark generation, FlatfishBert pretraining and fine-tuning, DNABERT-2 baseline evaluation, cross-species transfer evaluation, diagnostic task experiments, figure generation, and MMseqs2 train-test similarity auditing. Processed datasets, FlatfishBert checkpoints, result artifacts, and compact supplementary-table TSVs are archived separately in the Zenodo data/model record.",
+  "description": "Source code for benchmark generation, FlatfishBert pretraining and fine-tuning, DNABERT-2 baseline evaluation, cross-species transfer evaluation, diagnostic task experiments, figure generation, and MMseqs2 train-test sequence-similarity auditing. Processed datasets, FlatfishBert checkpoints, result artifacts, and compact supplementary-table TSVs are archived separately in the Zenodo data/model record.",
   "creators": [
     {
       "name": "Tang, Jingwen",
@@ -27,20 +27,16 @@
   "license": "mit",
   "keywords": [
     "genomic fragment classification",
-    "benchmark governance",
-    "homology-aware evaluation",
+    "benchmark construction",
+    "sequence similarity audit",
+    "redundancy control",
     "FlatfishBert",
     "DNABERT-2",
-    "MMseqs2",
-    "cross-species transfer",
+    "DNA foundation models",
+    "comparative genomics",
     "flatfish genomes"
   ],
   "related_identifiers": [
-    {
-      "identifier": "https://doi.org/10.5281/zenodo.19825273",
-      "relation": "isSupplementTo",
-      "resource_type": "dataset"
-    },
     {
       "identifier": "https://github.com/dogesang/FlatfishBERT",
       "relation": "isIdenticalTo",

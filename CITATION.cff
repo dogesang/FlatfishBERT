@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite the associated manuscript and Zenodo archives."
-title: "A Governance-First Benchmark for Genomic Fragment Classification under Homology-Aware Evaluation"
+message: "If you use this software, please cite the associated manuscript and Zenodo data archive."
+title: "A reproducible benchmark with sequence-similarity auditing for coding and non-coding genomic fragment classification across flatfish genomes"
 type: software
 authors:
   - family-names: Tang
@@ -25,13 +25,15 @@ url: "https://github.com/dogesang/FlatfishBERT"
 license: MIT
 keywords:
   - genomic fragment classification
-  - benchmark governance
-  - homology-aware evaluation
+  - benchmark construction
+  - sequence similarity audit
+  - redundancy control
   - FlatfishBert
   - DNABERT-2
-  - MMseqs2
+  - DNA foundation models
+  - comparative genomics
   - flatfish genomes
 references:
   - type: dataset
-    title: "Processed data, FlatfishBert checkpoints, and evaluation results for a governance-first genomic fragment classification benchmark"
-    doi: "10.5281/zenodo.19825273"
+    title: "Processed data, FlatfishBert checkpoints, and evaluation results for a reproducible genomic fragment classification benchmark"
+    doi: "10.5281/zenodo.20670177"
